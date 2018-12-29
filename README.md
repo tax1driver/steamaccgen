@@ -6,7 +6,11 @@ Either run one from the compiled releases or install dependencies
 and run it using node.
 
 
-```npm install```
+```
+npm install
+```
 
 
-```node app.js```
+```
+node app.js
+```
