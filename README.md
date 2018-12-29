@@ -4,5 +4,9 @@ Simply generates a blank Steam account with temporary email address (thanks to [
 # Usage
 Either run one from the compiled releases or install dependencies
 and run it using node.
+
+
 ```npm install```
+
+
 ```node app.js```
