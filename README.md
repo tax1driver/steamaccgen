@@ -1,5 +1,8 @@
 # Steam Account Generator
-Simply generates a blank Steam account with temporary email address.
+Simply generates a blank Steam account with temporary email address (thanks to [haydenwoodhead]https://github.com/haydenwoodhead/burner.kiwi).
 
 # Usage
-Run the application, then solve the captcha.
+Either run one from the compiled releases or install dependencies
+and run it using node.
+```npm install```
+```node app.js```
