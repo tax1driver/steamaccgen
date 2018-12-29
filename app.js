@@ -1,5 +1,7 @@
 var request = require('request-promise')
 var _ = require('underscore')
+const { exec } = require('child_process')
+
 var stdin = process.openStdin()
 
 var dictionary = "abcdefghijklmnoprstuwxyzABCDEFGHIJKLMNOPRSTUWXYZ"
@@ -230,6 +232,7 @@ function check_for_steam_messages() {
   }).then(function(gid) {
     c_gid = gid
     console.log('Please solve the captcha: ' + get_captcha_view_url(gid))
+    exec('start ' + get_captcha_view_url(gid))
     state.input_needed = true
 
     return wait_for_input()
